@@ -1,0 +1,129 @@
+CRITICAL - 2022-04-03 10:51:29 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-04-03 10:53:10 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-04-03 10:54:05 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-04-03 10:54:06 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-04-03 10:54:06 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-04-03 10:54:06 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-04-03 10:54:07 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-04-03 10:56:14 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-04-03 10:58:17 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-04-03 10:58:18 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-04-03 10:59:10 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-04-03 10:59:11 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-04-03 10:59:11 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-04-03 10:59:49 --> You must set the database table to be used with your query.
+#0 /home/depruebas/datos/Dropbox/AdyMaNet/Articulos/2022/04/rutas-dinamicas-en-codeigniter-4/web-routes/system/Model.php(545): CodeIgniter\Database\BaseConnection->table()
+#1 /home/depruebas/datos/Dropbox/AdyMaNet/Articulos/2022/04/rutas-dinamicas-en-codeigniter-4/web-routes/system/Model.php(722): CodeIgniter\Model->builder()
+#2 /home/depruebas/datos/Dropbox/AdyMaNet/Articulos/2022/04/rutas-dinamicas-en-codeigniter-4/web-routes/app/Models/RutasModel.php(39): CodeIgniter\Model->__call()
+#3 /home/depruebas/datos/Dropbox/AdyMaNet/Articulos/2022/04/rutas-dinamicas-en-codeigniter-4/web-routes/app/Controllers/Home.php(12): App\Models\RutasModel->GetRoutes()
+#4 /home/depruebas/datos/Dropbox/AdyMaNet/Articulos/2022/04/rutas-dinamicas-en-codeigniter-4/web-routes/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#5 /home/depruebas/datos/Dropbox/AdyMaNet/Articulos/2022/04/rutas-dinamicas-en-codeigniter-4/web-routes/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /home/depruebas/datos/Dropbox/AdyMaNet/Articulos/2022/04/rutas-dinamicas-en-codeigniter-4/web-routes/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/depruebas/datos/Dropbox/AdyMaNet/Articulos/2022/04/rutas-dinamicas-en-codeigniter-4/web-routes/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-03 11:01:24 --> You must set the database table to be used with your query.
+#0 /home/depruebas/datos/Dropbox/AdyMaNet/Articulos/2022/04/rutas-dinamicas-en-codeigniter-4/web-routes/system/Model.php(545): CodeIgniter\Database\BaseConnection->table()
+#1 /home/depruebas/datos/Dropbox/AdyMaNet/Articulos/2022/04/rutas-dinamicas-en-codeigniter-4/web-routes/system/Model.php(722): CodeIgniter\Model->builder()
+#2 /home/depruebas/datos/Dropbox/AdyMaNet/Articulos/2022/04/rutas-dinamicas-en-codeigniter-4/web-routes/app/Models/RutasModel.php(39): CodeIgniter\Model->__call()
+#3 /home/depruebas/datos/Dropbox/AdyMaNet/Articulos/2022/04/rutas-dinamicas-en-codeigniter-4/web-routes/app/Controllers/Home.php(12): App\Models\RutasModel->GetRoutes()
+#4 /home/depruebas/datos/Dropbox/AdyMaNet/Articulos/2022/04/rutas-dinamicas-en-codeigniter-4/web-routes/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#5 /home/depruebas/datos/Dropbox/AdyMaNet/Articulos/2022/04/rutas-dinamicas-en-codeigniter-4/web-routes/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /home/depruebas/datos/Dropbox/AdyMaNet/Articulos/2022/04/rutas-dinamicas-en-codeigniter-4/web-routes/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/depruebas/datos/Dropbox/AdyMaNet/Articulos/2022/04/rutas-dinamicas-en-codeigniter-4/web-routes/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-03 11:01:26 --> You must set the database table to be used with your query.
+#0 /home/depruebas/datos/Dropbox/AdyMaNet/Articulos/2022/04/rutas-dinamicas-en-codeigniter-4/web-routes/system/Model.php(545): CodeIgniter\Database\BaseConnection->table()
+#1 /home/depruebas/datos/Dropbox/AdyMaNet/Articulos/2022/04/rutas-dinamicas-en-codeigniter-4/web-routes/system/Model.php(722): CodeIgniter\Model->builder()
+#2 /home/depruebas/datos/Dropbox/AdyMaNet/Articulos/2022/04/rutas-dinamicas-en-codeigniter-4/web-routes/app/Models/RutasModel.php(39): CodeIgniter\Model->__call()
+#3 /home/depruebas/datos/Dropbox/AdyMaNet/Articulos/2022/04/rutas-dinamicas-en-codeigniter-4/web-routes/app/Controllers/Home.php(12): App\Models\RutasModel->GetRoutes()
+#4 /home/depruebas/datos/Dropbox/AdyMaNet/Articulos/2022/04/rutas-dinamicas-en-codeigniter-4/web-routes/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#5 /home/depruebas/datos/Dropbox/AdyMaNet/Articulos/2022/04/rutas-dinamicas-en-codeigniter-4/web-routes/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /home/depruebas/datos/Dropbox/AdyMaNet/Articulos/2022/04/rutas-dinamicas-en-codeigniter-4/web-routes/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/depruebas/datos/Dropbox/AdyMaNet/Articulos/2022/04/rutas-dinamicas-en-codeigniter-4/web-routes/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-03 11:01:27 --> You must set the database table to be used with your query.
+#0 /home/depruebas/datos/Dropbox/AdyMaNet/Articulos/2022/04/rutas-dinamicas-en-codeigniter-4/web-routes/system/Model.php(545): CodeIgniter\Database\BaseConnection->table()
+#1 /home/depruebas/datos/Dropbox/AdyMaNet/Articulos/2022/04/rutas-dinamicas-en-codeigniter-4/web-routes/system/Model.php(722): CodeIgniter\Model->builder()
+#2 /home/depruebas/datos/Dropbox/AdyMaNet/Articulos/2022/04/rutas-dinamicas-en-codeigniter-4/web-routes/app/Models/RutasModel.php(39): CodeIgniter\Model->__call()
+#3 /home/depruebas/datos/Dropbox/AdyMaNet/Articulos/2022/04/rutas-dinamicas-en-codeigniter-4/web-routes/app/Controllers/Home.php(12): App\Models\RutasModel->GetRoutes()
+#4 /home/depruebas/datos/Dropbox/AdyMaNet/Articulos/2022/04/rutas-dinamicas-en-codeigniter-4/web-routes/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#5 /home/depruebas/datos/Dropbox/AdyMaNet/Articulos/2022/04/rutas-dinamicas-en-codeigniter-4/web-routes/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /home/depruebas/datos/Dropbox/AdyMaNet/Articulos/2022/04/rutas-dinamicas-en-codeigniter-4/web-routes/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/depruebas/datos/Dropbox/AdyMaNet/Articulos/2022/04/rutas-dinamicas-en-codeigniter-4/web-routes/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-03 11:05:25 --> You must set the database table to be used with your query.
+#0 /home/depruebas/datos/Dropbox/AdyMaNet/Articulos/2022/04/rutas-dinamicas-en-codeigniter-4/web-routes/system/Model.php(545): CodeIgniter\Database\BaseConnection->table()
+#1 /home/depruebas/datos/Dropbox/AdyMaNet/Articulos/2022/04/rutas-dinamicas-en-codeigniter-4/web-routes/system/Model.php(722): CodeIgniter\Model->builder()
+#2 /home/depruebas/datos/Dropbox/AdyMaNet/Articulos/2022/04/rutas-dinamicas-en-codeigniter-4/web-routes/app/Models/RutasModel.php(39): CodeIgniter\Model->__call()
+#3 /home/depruebas/datos/Dropbox/AdyMaNet/Articulos/2022/04/rutas-dinamicas-en-codeigniter-4/web-routes/app/Controllers/Home.php(12): App\Models\RutasModel->GetRoutes()
+#4 /home/depruebas/datos/Dropbox/AdyMaNet/Articulos/2022/04/rutas-dinamicas-en-codeigniter-4/web-routes/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#5 /home/depruebas/datos/Dropbox/AdyMaNet/Articulos/2022/04/rutas-dinamicas-en-codeigniter-4/web-routes/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /home/depruebas/datos/Dropbox/AdyMaNet/Articulos/2022/04/rutas-dinamicas-en-codeigniter-4/web-routes/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/depruebas/datos/Dropbox/AdyMaNet/Articulos/2022/04/rutas-dinamicas-en-codeigniter-4/web-routes/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-03 11:05:26 --> You must set the database table to be used with your query.
+#0 /home/depruebas/datos/Dropbox/AdyMaNet/Articulos/2022/04/rutas-dinamicas-en-codeigniter-4/web-routes/system/Model.php(545): CodeIgniter\Database\BaseConnection->table()
+#1 /home/depruebas/datos/Dropbox/AdyMaNet/Articulos/2022/04/rutas-dinamicas-en-codeigniter-4/web-routes/system/Model.php(722): CodeIgniter\Model->builder()
+#2 /home/depruebas/datos/Dropbox/AdyMaNet/Articulos/2022/04/rutas-dinamicas-en-codeigniter-4/web-routes/app/Models/RutasModel.php(39): CodeIgniter\Model->__call()
+#3 /home/depruebas/datos/Dropbox/AdyMaNet/Articulos/2022/04/rutas-dinamicas-en-codeigniter-4/web-routes/app/Controllers/Home.php(12): App\Models\RutasModel->GetRoutes()
+#4 /home/depruebas/datos/Dropbox/AdyMaNet/Articulos/2022/04/rutas-dinamicas-en-codeigniter-4/web-routes/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#5 /home/depruebas/datos/Dropbox/AdyMaNet/Articulos/2022/04/rutas-dinamicas-en-codeigniter-4/web-routes/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /home/depruebas/datos/Dropbox/AdyMaNet/Articulos/2022/04/rutas-dinamicas-en-codeigniter-4/web-routes/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/depruebas/datos/Dropbox/AdyMaNet/Articulos/2022/04/rutas-dinamicas-en-codeigniter-4/web-routes/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-03 11:05:26 --> You must set the database table to be used with your query.
+#0 /home/depruebas/datos/Dropbox/AdyMaNet/Articulos/2022/04/rutas-dinamicas-en-codeigniter-4/web-routes/system/Model.php(545): CodeIgniter\Database\BaseConnection->table()
+#1 /home/depruebas/datos/Dropbox/AdyMaNet/Articulos/2022/04/rutas-dinamicas-en-codeigniter-4/web-routes/system/Model.php(722): CodeIgniter\Model->builder()
+#2 /home/depruebas/datos/Dropbox/AdyMaNet/Articulos/2022/04/rutas-dinamicas-en-codeigniter-4/web-routes/app/Models/RutasModel.php(39): CodeIgniter\Model->__call()
+#3 /home/depruebas/datos/Dropbox/AdyMaNet/Articulos/2022/04/rutas-dinamicas-en-codeigniter-4/web-routes/app/Controllers/Home.php(12): App\Models\RutasModel->GetRoutes()
+#4 /home/depruebas/datos/Dropbox/AdyMaNet/Articulos/2022/04/rutas-dinamicas-en-codeigniter-4/web-routes/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#5 /home/depruebas/datos/Dropbox/AdyMaNet/Articulos/2022/04/rutas-dinamicas-en-codeigniter-4/web-routes/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /home/depruebas/datos/Dropbox/AdyMaNet/Articulos/2022/04/rutas-dinamicas-en-codeigniter-4/web-routes/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/depruebas/datos/Dropbox/AdyMaNet/Articulos/2022/04/rutas-dinamicas-en-codeigniter-4/web-routes/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-03 11:10:32 --> Trying to get property 'slug' of non-object
+#0 /home/depruebas/datos/Dropbox/AdyMaNet/Articulos/2022/04/rutas-dinamicas-en-codeigniter-4/web-routes/app/Controllers/RutasController.php(17): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/depruebas/datos/Dropbox/AdyMaNet/Articulos/2022/04/rutas-dinamicas-en-codeigniter-4/web-routes/system/CodeIgniter.php(832): App\Controllers\RutasController->index()
+#2 /home/depruebas/datos/Dropbox/AdyMaNet/Articulos/2022/04/rutas-dinamicas-en-codeigniter-4/web-routes/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /home/depruebas/datos/Dropbox/AdyMaNet/Articulos/2022/04/rutas-dinamicas-en-codeigniter-4/web-routes/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/depruebas/datos/Dropbox/AdyMaNet/Articulos/2022/04/rutas-dinamicas-en-codeigniter-4/web-routes/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-03 11:11:19 --> Trying to get property 'slug' of non-object
+#0 /home/depruebas/datos/Dropbox/AdyMaNet/Articulos/2022/04/rutas-dinamicas-en-codeigniter-4/web-routes/app/Controllers/RutasController.php(18): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/depruebas/datos/Dropbox/AdyMaNet/Articulos/2022/04/rutas-dinamicas-en-codeigniter-4/web-routes/system/CodeIgniter.php(832): App\Controllers\RutasController->index()
+#2 /home/depruebas/datos/Dropbox/AdyMaNet/Articulos/2022/04/rutas-dinamicas-en-codeigniter-4/web-routes/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /home/depruebas/datos/Dropbox/AdyMaNet/Articulos/2022/04/rutas-dinamicas-en-codeigniter-4/web-routes/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/depruebas/datos/Dropbox/AdyMaNet/Articulos/2022/04/rutas-dinamicas-en-codeigniter-4/web-routes/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-03 14:25:33 --> Call to a member function get() on array
+#0 /home/depruebas/datos/Dropbox/AdyMaNet/Articulos/2022/04/rutas-dinamicas-en-codeigniter-4/web-routes/system/CodeIgniter.php(713): require()
+#1 /home/depruebas/datos/Dropbox/AdyMaNet/Articulos/2022/04/rutas-dinamicas-en-codeigniter-4/web-routes/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#2 /home/depruebas/datos/Dropbox/AdyMaNet/Articulos/2022/04/rutas-dinamicas-en-codeigniter-4/web-routes/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/depruebas/datos/Dropbox/AdyMaNet/Articulos/2022/04/rutas-dinamicas-en-codeigniter-4/web-routes/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
